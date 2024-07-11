@@ -38,7 +38,7 @@ def estadisticas():
         print("Sueldo más alto: ",{int(max(gachapon))})
         print("Sueldo más bajo: ",{int(min(gachapon))})
         print("Promedio de sueldos: ",{int(sum(gachapon))/10})
-        print("Media geométrica: ",{int(sum(gachapon[0]*gachapon[1]*gachapon[2]*gachapon[3]*gachapon[4]*gachapon[5]*gachapon[6]*gachapon[7]*gachapon[8]*gachapon[9])**1/10)})
+        print("Media geométrica: ",geometriytal())
 def reportsueldos():
         print("Nombre empleado\tSueldo Base\tDescuento Salud\tDescuento AFP\t\tSueldo líquido")
         print(f"{trabajadores[0],"  ",gachapon[0],"  ",{int(gachapon[0]*0.7)},"  ",{int(gachapon[0]*0.12)},"  ",{int(gachapon[0])-(gachapon[0]*0.12+gachapon[0]*0.7)}}")
@@ -56,5 +56,7 @@ def salir():
         print("Desarrollado por José Quezada")
         print("RUT 21.644.916-9")
         exit()
-    
+def geometriytal():
+      for x in range(10):
+        {int(gachapon[x]*gachapon[x])/0.1}
     
