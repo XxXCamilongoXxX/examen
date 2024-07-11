@@ -51,6 +51,7 @@ def reportsueldos():
         print(f"{trabajadores[7],"  ",gachapon[7],"  ",{int(gachapon[7]*0.7)},"  ",{int(gachapon[7]*0.12)},"  ",{int(gachapon[7])-(gachapon[7]*0.12+gachapon[7]*0.7)}}")
         print(f"{trabajadores[8],"  ",gachapon[8],"  ",{int(gachapon[8]*0.7)},"  ",{int(gachapon[8]*0.12)},"  ",{int(gachapon[8])-(gachapon[8]*0.12+gachapon[8]*0.7)}}")
         print(f"{trabajadores[9],"  ",gachapon[9],"  ",{int(gachapon[9]*0.7)},"  ",{int(gachapon[9]*0.12)},"  ",{int(gachapon[9])-(gachapon[9]*0.12+gachapon[9]*0.7)}}")
+        
 def salir():
         print("Finalizando programa...")
         print("Desarrollado por José Quezada")
